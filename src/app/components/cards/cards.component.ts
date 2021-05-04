@@ -14,10 +14,10 @@ export class CardsComponent implements OnInit {
 
   public cards = [
     { title: 'Icons in layers', href: '/icon-layers'},
-    { title: 'Animated loader', href: '/icon-layers'},
-    { title: 'Divs change color', href: '/icon-layers'},
-    { title: 'Button effect', href: '/icon-layers'},
-    { title: 'Pulse effect', href: '/icon-layers'},
+    { title: 'Animated loader', href: '/animated-loader'},
+    { title: 'Divs change color', href: '#'},
+    { title: 'Button effect', href: '#'},
+    { title: 'Pulse effect', href: '#'},
   ];
 
 }

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IconLayersComponent } from './components/icon-layers/icon-layers.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ToolbarComponent } from './shared/toolbar/toolbar.component';
+import { AnimatedLoaderComponent } from './components/animated-loader/animated-loader.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ToolbarComponent } from './shared/toolbar/toolbar.component';
     IconLayersComponent,
     CardsComponent,
     ToolbarComponent,
+    AnimatedLoaderComponent,
   ],
   imports: [
     BrowserModule,
