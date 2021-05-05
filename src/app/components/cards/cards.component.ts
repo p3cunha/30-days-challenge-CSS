@@ -15,8 +15,8 @@ export class CardsComponent implements OnInit {
   public cards = [
     { title: 'Icons in layers', href: '/icon-layers'},
     { title: 'Animated loader', href: '/animated-loader'},
-    { title: 'Divs change color', href: '#'},
-    { title: 'Button effect', href: '#'},
+    { title: 'Divs change color', href: '/color-change'},
+    { title: 'Button effect', href: '/animated-button'},
     { title: 'Pulse effect', href: '#'},
   ];
 

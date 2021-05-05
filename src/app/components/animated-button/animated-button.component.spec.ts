@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconLayersComponent } from './icon-layers.component';
+import { AnimatedButtonComponent } from './animated-button.component';
 
-describe('IconLayersComponent', () => {
-  let component: IconLayersComponent;
-  let fixture: ComponentFixture<IconLayersComponent>;
+describe('AnimatedButtonComponent', () => {
+  let component: AnimatedButtonComponent;
+  let fixture: ComponentFixture<AnimatedButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IconLayersComponent ]
+      declarations: [ AnimatedButtonComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(IconLayersComponent);
+    fixture = TestBed.createComponent(AnimatedButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

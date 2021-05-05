@@ -7,6 +7,8 @@ import { IconLayersComponent } from './components/icon-layers/icon-layers.compon
 import { CardsComponent } from './components/cards/cards.component';
 import { ToolbarComponent } from './shared/toolbar/toolbar.component';
 import { AnimatedLoaderComponent } from './components/animated-loader/animated-loader.component';
+import { AnimatedButtonComponent } from './components/animated-button/animated-button.component';
+import { DivColorChangeComponent } from './components/div-color-change/div-color-change.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { AnimatedLoaderComponent } from './components/animated-loader/animated-l
     CardsComponent,
     ToolbarComponent,
     AnimatedLoaderComponent,
+    AnimatedButtonComponent,
+    DivColorChangeComponent,
   ],
   imports: [
     BrowserModule,
